@@ -1,0 +1,13 @@
+<!-- excerpt.html -->
+
+<div class="box">
+	<h3>
+		<a href="{{ post.externalUrl }}">{{ post.title }}</a>
+	</h3>
+	<div class="desc">
+		{{ post.date | date_to_string }}
+		{{post.excerpt}}...
+	</div>
+</div>
+
+<!-- /excerpt.html -->
