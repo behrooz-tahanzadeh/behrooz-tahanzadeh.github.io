@@ -116,7 +116,14 @@ section>div.box>h3>a
 	text-decoration:none;
 	display:block;
 }
-	
+
+section>div.box>time
+{
+	font-size:small;
+	font-style:italic;
+	color:#999;
+}
+
 a{color:#999;}
 
 a:hover{color:#7c7;}
